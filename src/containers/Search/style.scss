@@ -1,0 +1,35 @@
+.container {
+  padding: 20px;
+  max-width: 1280px;
+  margin: auto;
+
+  .title {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .loading-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .error-box {
+    background: #f8d7da;
+    color: #85373c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 0px #85373c40;
+
+    &__title, &__action {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    &__action:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
